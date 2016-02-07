@@ -8,7 +8,7 @@
 
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-<title>Cryptex , Phoenix 2016</title>
+<title>Cryptex-Phoenix 2016</title>
 
 <meta name="keywords" content="" />
 
