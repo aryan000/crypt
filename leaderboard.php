@@ -2,24 +2,24 @@
 
 
 
-session_start();
+// session_start();
 
 
-include('include/fbapi.php');
-include("functions.php");
-if(!isset($_SESSION['access_token'])) {
+// include('include/fbapi.php');
+// include("functions.php");
+// if(!isset($_SESSION['access_token'])) {
      
 	 
-     $dialog_url = "https://www.facebook.com/dialog/oauth?client_id=" 
-       . $app_id . "&redirect_uri=" . urlencode($my_url) . "&scope=user_birthday,email,read_stream,user_education_history,read_friendlists";
+//      $dialog_url = "https://www.facebook.com/dialog/oauth?client_id=" 
+//        . $app_id . "&redirect_uri=" . urlencode($my_url) . "&scope=user_birthday,email,read_stream,user_education_history,read_friendlists";
 
-     echo("<script> top.location.href='" . $dialog_url . "'</script>");
+//      echo("<script> top.location.href='" . $dialog_url . "'</script>");
 	 
 	 
-   }
+//    }
 
 
-$con=connect();
+// $con=connect();
 
 
 
